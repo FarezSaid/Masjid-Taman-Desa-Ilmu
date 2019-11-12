@@ -1,0 +1,19 @@
+To  View your website: 
+http://masjiddesailmu.focusitunimas.net 
+
+To transfer file to your web directory: 
+Please use suitable file transfer software such as CoreFTP. 
+You need the following info to connect 
+
+ 
+Host:  ftp.focusitunimas.net 
+UserName:  admin@masjiddesailmu.focusitunimas.net 
+Password:  desailmu!Q! 
+Port No: 21 
+
+To connect to the MySQL server: 
+http://focusitunimas.net/phpmyadmin/ 
+
+ 
+Username:  focusi10_masjiddesailmu 
+Password:  desailmu!Q!   
