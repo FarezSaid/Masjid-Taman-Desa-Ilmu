@@ -317,6 +317,7 @@ Jalan Datuk Mohd Musa 94300 Kota Samarahan<br>
 </div>
 </div>
 </div>
+<p style="text-align: center;"><strong>Copyright © 2019 Masjid Taman Desa Ilmu</strong></p>
 </div>
 </section>
 
