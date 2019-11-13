@@ -63,7 +63,7 @@
 <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Galeri</a>
 <ul>
 <li><a href="fasiliti.html" title="" itemprop="url">Fasiliti Masjid</a></li>
-<li><a href="hadis.html" title="" itemprop="url">Koleksi Hadis</a></li>
+<li><a href="hadis.html" title="" itemprop="url">Hadis</a></li>
 </ul>
 </li>
 <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Muat Turun</a>
@@ -85,19 +85,20 @@
 </div>
 </div>
   <!-- Page Content -->
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" <img src="img/slide5.jpg" alt="#">
-    </div> 
-    <div class="carousel-item">
-      <img class="d-block w-100" <img src="img/slide4.jpg" alt="#">
+         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div class="carousel-inner">
+  <div class="carousel-item active">
+          <img class="d-block w-100" <img src="img/slide5.jpg" alt="#">
+          </div> 
+          <div class="carousel-item">
+       <img class="d-block w-100" <img src="img/slide4.jpg" alt="#">
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" <img src="img/slide1.jpg" alt="#">
     </div>
- </div>
-</div>
+  </div>
+ 
+        </div>
 <style>
   body{
     background-color: azure;
@@ -315,6 +316,20 @@ Jalan Datuk Mohd Musa 94300 Kota Samarahan<br>
 </div>
 </div>
 </div>
+<div class="center">
+<div class= "row">
+  <div class="column">
+<a href="http://www.islam.gov.my/" title="JAKIM" itemprop="url"><img src="img/logo_jakim.png" alt="logo_jakim.png" width="80" height="50" itemprop="image"></a>
+</div>
+<div class="column">
+<a href="https://mis.sarawak.gov.my/" title="MIS" itemprop="url"><img src="img/Logo Majlis Islam Sarawak.png" alt="logo MIS.png" width=80 height="50" itemprop="image"></a>
+</div>
+<div class="column">
+<a href="https://jais.sarawak.gov.my/" title="JAIS" itemprop="url"><img src="img/JAIS.png" alt="logo JAIS.png" width=80 height="50" itemprop="image"></a>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 <p style="text-align: center;"><strong>Copyright © 2019 Masjid Taman Desa Ilmu</strong></p>
@@ -339,6 +354,26 @@ var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds(
 var dateTime = date+' '+time;
 document.getElementById("demo").innerHTML = dateTime;
 </script>
+<style> 
+* {
+  box-sizing: border-box;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+.column {
+  float: left;
+  width: 33%;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;  
+}
+</style>
 </body>
 
 </html>
