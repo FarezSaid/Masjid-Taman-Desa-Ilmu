@@ -88,7 +88,7 @@
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" <img src="img/slide3.jpg" alt="#">
+      <img class="d-block w-100" <img src="img/slide5.jpg" alt="#">
     </div> 
     <div class="carousel-item">
       <img class="d-block w-100" <img src="img/slide4.jpg" alt="#">
@@ -108,7 +108,7 @@
 </div>
 <style>
   body{
-    background-image: url(img/parallax3.jpg);
+    background-color: azure;
     background-repeat: no-repeat;
     background-attachment: fixed;
    background-size: cover;
