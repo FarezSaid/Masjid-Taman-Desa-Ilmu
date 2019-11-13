@@ -68,7 +68,7 @@
 </li>
 <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Muat Turun</a>
 <ul>
-<li><a href="E-Khutbah.html" title="" itemprop="url">E-Khutbah</a></li>
+<li><a href="http://www.islam.gov.my/e-khutbah" title="" itemprop="url">E-Khutbah</a></li>
 <li><a href="nota kuliah.html" title="" itemprop="url">Nota Kuliah</a></li>
 </ul>
 </li>
@@ -80,7 +80,9 @@
 </nav>
 </div>
 </div>
-<p><font color="white" id="demo"></font></p>
+<p><font color="white" id="demo"></font><font color ="white"> <div dir=ltr style="font-size:10pt; font-family:Tahoma;">
+    <script type="text/javascript" src="http://www.parsquran.com/data/verse.php?lang=eng"></script>
+    </div></font></p>
 </header>
 </div>
 </div>
@@ -332,10 +334,8 @@ Jalan Datuk Mohd Musa 94300 Kota Samarahan<br>
 </div>
 </div>
 </div>
-<p style="text-align: center;"><strong>Copyright © 2019 Masjid Taman Desa Ilmu</strong></p>
-</div>
 </section>
-
+<p style="text-align: center;"><strong>Copyright © 2019 Masjid Taman Desa Ilmu</strong></p>
     <!-- /.container -->
   </footer>
 </main>
