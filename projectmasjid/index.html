@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+<head>	
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="">
+
+    <link href="http://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Ramadan Countdown</title>
+</head>
+
+<body>
+
+<a href="settings.html" class="btn btn-default" style="position: absolute; top: 5px; right: 5px;">
+    <span class="glyphicon glyphicon-cog"></span>
+</a>
+
+<span class="hijri-date"></span>
+
+<div class="countdown countdown-container container">
+
+    <div class="clock row">
+        <div class="col-sm-3 col-md-4"></div>
+
+        <div class="clock-item clock-days countdown-time-value col-sm-6 col-md-4">
+            <div class="wrap">
+                <div class="inner">
+                    <div id="canvas-days" class="clock-canvas"></div>
+
+                    <div class="text">
+                        <p class="val">0</p>
+                        <p class="type-days type-time">DAYS<br>UNTIL<br>RAMADAN</p>
+                    </div><!-- /.text -->
+                </div><!-- /.inner -->
+            </div><!-- /.wrap -->
+        </div><!-- /.clock-item -->
+
+        <div class="clock-item clock-hours countdown-time-value col-sm-1 col-md-2">
+            <div class="wrap">
+                <div class="inner">
+                    <div id="canvas-hours" class="clock-canvas"></div>
+
+                    <div class="text">
+                        <p class="val">0</p>
+                        <p class="type-hours type-time">HOURS</p>
+                    </div><!-- /.text -->
+                </div><!-- /.inner -->
+            </div><!-- /.wrap -->
+        </div><!-- /.clock-item -->
+
+        <div class="clock-item clock-minutes countdown-time-value col-sm-1 col-md-1">
+            <div class="wrap">
+                <div class="inner">
+                    <div id="canvas-minutes" class="clock-canvas"></div>
+
+                    <div class="text">
+                        <p class="val">0</p>
+                        <p class="type-minutes type-time">MINUTES</p>
+                    </div><!-- /.text -->
+                </div><!-- /.inner -->
+            </div><!-- /.wrap -->
+        </div><!-- /.clock-item -->
+
+        <div class="clock-item clock-seconds countdown-time-value col-sm-1 col-md-1">
+            <div class="wrap">
+                <div class="inner">
+                    <div id="canvas-seconds" class="clock-canvas"></div>
+
+                    <div class="text">
+                        <p class="val">0</p>
+                        <p class="type-seconds type-time">SECONDS</p>
+                    </div><!-- /.text -->
+                </div><!-- /.inner -->
+            </div><!-- /.wrap -->
+        </div><!-- /.clock-item -->
+    </div><!-- /.clock -->
+</div><!-- /.countdown-wrapper -->
+
+<div class="btn-group btn-group-justified" role="group" style="position: absolute; bottom: 0;">
+    <div class="btn-group" role="group">
+        <a href="progress.html" class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-equalizer"></span>
+            <br>
+            Progress
+        </a>
+    </div>
+    <div class="btn-group" role="group">
+        <a href="#" class="btn btn-default btn-lg btn-tips">
+            <span class="glyphicon glyphicon-ok-circle"></span>
+            <br>
+            Tips
+        </a>
+    </div>
+    <div class="btn-group" role="group">
+        <a href="http://www.zakat.org/donate/zakat-calculator/" class="btn btn-default btn-lg" target="_blank">
+            <span class="glyphicon glyphicon-usd"></span>
+            <br>
+            Zakat
+        </a>
+    </div>
+</div>
+
+<div class="modal fade" id="tips-modal" tabindex="-1" role="dialog" aria-labelledby="tips-modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Tell me something cool...</h4>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="monthly-modal" tabindex="-1" role="dialog" aria-labelledby="monthly-modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Reminders for <span></span></h4>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Snooze for 2 hours</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">I've done this!</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js"></script>
+<script src="js/kinetic.js"></script>
+<script src="js/jquery.final-countdown.min.js"></script>
+<script src="js/hijricalendar-kuwaiti.js"></script>
+<script src="js/tabletop.js"></script>
+<script src="js/random-reminders.js"></script>
+<script>
+    (function () {
+        $('.countdown').final_countdown({
+            'start': moment('2014-07-29').unix(),
+            'end': moment('2015-06-18').unix(),
+            'now': moment().unix()
+        });
+
+        $('.clock-seconds, .clock-minutes, .clock-hours').hide();
+
+        $('.hijri-date').html(writeIslamicDate());
+
+        $('.clock-days').click(function (e) {
+           window.location = 'progress.html';
+        });
+    })();
+</script>
+
+</body>
+</html>
