@@ -216,25 +216,25 @@
 <ul class="plrs-wrp text-center">
 <li>
 <div class="plr-bx">
-<i class="brd-rd50"><img src="a.PNG"></i>
+<i class="brd-rd50"><img src="img/a.PNG"></i>
 <h5 itemprop="headline">Ilmu</h5>
 </div>
 </li>
 <li>
 <div class="plr-bx">
-<i class="brd-rd50"><img src="b.png"></i>
+<i class="brd-rd50"><img src="img/b.png"></i>
 <h5 itemprop="headline">Ehsan</h5>
 </div>
 </li>
 <li>
 <div class="plr-bx">
-<i class="brd-rd50"><img src="c.png"></i>
+<i class="brd-rd50"><img src="img/c.png"></i>
 <h5 itemprop="headline">Komuniti</h5>
 </div>
 </li>
 <li>
 <div class="plr-bx">
-<i class="brd-rd50"><img src="d.png"></i>
+<i class="brd-rd50"><img src="img/d.png"></i>
 <h5 itemprop="headline">Khidmat</h5>
 </div>
 </li>
