@@ -18,7 +18,7 @@
   <meta name="author" content="">
   <meta name="keywords" content="" />
 
-  <title>Masjid Taman Desa Ilmu</title>
+  <title>FAREZ FAREZ FAREZ INI WEBSITE FAREZ PUNYA</title>
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -86,6 +86,9 @@
 </header>
 </div>
 </div>
+	
+	<div> 
+		<h1>INI WEBSITE FAREZ PUNYA </h1></div>
   <!-- Page Content -->
          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 <div class="carousel-inner">
